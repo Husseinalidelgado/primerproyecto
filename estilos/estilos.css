@@ -1,0 +1,441 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+}
+
+header ul {
+display: flex;
+}
+
+header ul li {
+list-style: none;
+margin-right: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contenedor
+{
+  max-width: 1280px;
+  width: 90%;
+  margin:auto;
+
+}
+
+header {
+  background:
+  linear-gradient(rgba(246,116,222,.8),
+  rgba(109,245,245,.8)),
+  url(../imagenes/fondo1.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+#contenedor-titulo-flex {
+  display: flex;
+  justify-content: center;
+  margin: 18vh 0;
+  width: 100%;
+
+}
+
+h1 {
+font-size: 60px;
+color: #30374b;
+margin: 0;
+}
+
+h2 {
+  font-size: 18px;
+  color: #30374b;
+}
+.contenedor-titulo{
+  text-align: center;
+}
+.contenedor-titulo a, #sobre-mi a, #blog a,
+#que-esperas a, #Contacto input[type="submit"] {
+font-size: 14px;
+color: white;
+background: #F21D9B;
+padding: 14px 24px;
+width: 128px;
+display: inline-block;
+  }
+
+p.logo {
+color: #30374b;
+font-size: 20px;
+font-weight:bold;
+  }
+nav ul li a {
+color: #30374b;
+  }
+
+  /*Seccion de sobre mi*/
+
+ h3 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+  text-transform: capitalize;
+  color: #30374b
+}
+
+#por-que-trabajar h3 {
+  text-transform: none;
+}
+
+#sobre-mi .contenedor-sobremi {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sobre-mi .texto {
+width: 40%;
+justify-content: space-around;
+}
+
+/*SECCION SERVICIOS*/
+.contenedor-servicios {
+display:flex;
+justify-content: space-around;
+flex-wrap: wrap;
+color: black;
+}
+
+.servicio {
+width: 24%;
+padding: 34px 30px 28px 30px;
+border-radius: 10px;
+margin-bottom: 40px;
+position: relative;
+
+}
+
+.servicio h4 {
+font-size: 30px;
+margin: 0;
+}
+
+.servicio p {
+margin-bottom: 20px;
+height: 194px;
+}
+
+.contenedor-servicios .violeta {
+  background: linear-gradient(#DD5E89,
+  #F7BB97);
+  box-shadow: 13px 10px 9px -4px rgba(48,43,43,1);
+}
+
+.contenedor-servicios .celeste {
+  background: linear-gradient(#12D8FA,
+  #A6FFCB);
+  box-shadow: 13px 10px 9px -4px rgba(48,43,43,1);
+}
+
+  .icono {
+    float: right;
+}
+/*MIS TRABAJOS*/
+button.owl-prev, button.owl-next {
+font-size: 40px !important
+
+}
+
+span {
+    color: #19daf8;
+}
+
+section {
+  margin: 60px 0
+}
+
+.contenedor-trabajar {
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+#por-que-trabajar .item {
+  width:28%;
+  text-align: center;
+
+}
+
+#por-que-trabajar ul li {
+list-style:none;
+}
+
+#por-que-trabajar ul li:nth-child(2) {
+font-weight: bold;
+font-size: 19px;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+
+#por-que-trabajar ul li:nth-child(3) {
+line-height: 31px;
+
+}
+
+/*seccion blog*/
+#blog {
+  background: #F9FAFC;
+}
+
+#blog .contenedor-publicaciones {
+justify-content: space-around;
+display: flex;
+}
+
+#blog .publicacion {
+  width: 30%;
+  box-shadow: 10px 10px 30px -11px rgba(161,156,161,1);
+ }
+
+ #blog img {
+     width: 100%;
+   }
+
+#blog .contenido {
+  background: white;
+  padding: 20px;
+}
+
+#blog h4 {
+font-size: 23px;
+margin-bottom: 15px;
+margin: 0;
+}
+
+#blog p {
+  color: #5A6169;
+  line-height: 23px;
+  font-size: 16px;
+
+}
+
+#blog a {
+  width: 87px;
+}
+
+/*seccion hablemos*/
+#que-esperas {
+  background:
+  linear-gradient(rgba(84,93,220,.94),
+  rgba(96,171,245,9));
+  text-align: center;
+  padding: 50px 0;
+  margin-top: 40px;
+}
+
+#que-esperas h3 {
+  font-size: 23px;
+  color: white;
+  text-transform: none;
+
+}
+
+/*seccion contacto*/
+
+#Contacto form {
+  display: flex;
+  justify-content: normal;
+  flex-wrap: wrap;
+  width: 84%;
+  margin: auto;
+
+}
+
+form input[type="text"], form input[type="email"] {
+  width: 49%;
+  margin-bottom: 15px;
+  padding: 18px 0;
+  border: 0;
+  border-bottom: 1px solid #5cb8ff;
+  font-size: 17px;
+  margin: 0 10px 30px 10px;
+}
+
+form input[type="text"] {
+  margin-left: 0;
+}
+
+form input[type="email"] {
+  margin-right: 0;
+}
+
+textarea {
+  padding: 18px 0;
+  border: 0;
+  border-bottom: 1px solid #5cb8ff;
+  font-size: 17px;
+  margin-bottom: 40px;
+  width: 100%
+}
+
+#Contacto input[type="submit"] {
+  width: 166px;
+  margin: auto;
+
+}
+
+.contacto-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin-top: 90px;
+}
+
+.contacto-info img {
+  width: 28px;
+  vertical-align: middle;
+  margin-right: 10px;
+
+}
+
+footer {
+  background:#C0C0C0;
+  padding: 40px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer img{
+  margin: 0 40px;
+  transform: rotate(0);
+  transition: 0.4s;
+}
+
+footer img:hover {
+  transform: rotate(360deg);
+  transition: 0.4s;
+}
+
+footer p {
+    margin-top: 50px;
+    
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#sobre-mi, #mis-trabajos, #Servicios, #por-que-trabajar, #blog, #Contacto {
+  padding: 35px 0;
+}
+
+#servicios {
+  padding: 70px 0;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 800px) {
+
+
+.menu-icon {
+  display: block;
+  float: right;
+  width: 40px;
+  height: 35px;
+  margin-top: 15px;
+}
+
+header nav {
+  position: absolute; 
+  top: 83px;
+  left: 0;
+  height: 268px;
+  background:#F5F5F5;
+  width: 100%;
+  display: none;
+
+}
+
+header nav ul {
+  flex-direction: column;
+}
+
+header nav ul li {
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 19px;
+
+}
+
+#sobre-mi .contenedor-sobremi {
+  flex-direction: column;
+}
+
+#sobre-mi img{
+width: 100%;
+}
+
+#sobre-mi .texto{
+  width: 100%;
+}
+
+.contenedor-servicios{
+  flex-direction: column;
+}
+
+.servicio{
+  width: 82%;
+  padding: 27px 29px 16px 29px;
+}
+
+.icono{
+  margin-top: 23px;
+}
+
+h3{
+  font-size: 43px;
+}
+
+.contenedor-trabajar{
+  flex-direction: column;
+}
+
+#por-que-trabajar .item {
+  width: 100%;
+}
+.item ul {
+  padding: 0;
+}
+#blog .contenedor-publicaciones{
+  flex-direction: column;
+}
+#blog .publicacion {
+  width: 100%;
+  margin-bottom: 40px;
+}
+#contacto form {
+  width: 100%;
+  flex-direction: column;
+}
+
+form input[type="text"], form input[type="email"]{
+  width: 100%;
+
+}
+
+footer img {
+  margin: 0 24px;
+}
+
+}
